@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275736642007297400AA4AF7 /* Balance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275736632007297400AA4AF7 /* Balance.xib */; };
+		275736662007297B00AA4AF7 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275736652007297B00AA4AF7 /* Balance.swift */; };
+		2757366820072F2500AA4AF7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757366720072F2500AA4AF7 /* FirstViewController.swift */; };
 		278CCE041FF5DF4100EC046A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278CCE031FF5DF4100EC046A /* AppDelegate.swift */; };
-		278CCE061FF5DF4100EC046A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278CCE051FF5DF4100EC046A /* ViewController.swift */; };
 		278CCE091FF5DF4100EC046A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278CCE071FF5DF4100EC046A /* Main.storyboard */; };
 		278CCE0B1FF5DF4100EC046A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278CCE0A1FF5DF4100EC046A /* Assets.xcassets */; };
 		278CCE0E1FF5DF4100EC046A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278CCE0C1FF5DF4100EC046A /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		275736632007297400AA4AF7 /* Balance.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Balance.xib; sourceTree = "<group>"; };
+		275736652007297B00AA4AF7 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		2757366720072F2500AA4AF7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		278CCE001FF5DF4100EC046A /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		278CCE031FF5DF4100EC046A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		278CCE051FF5DF4100EC046A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		278CCE081FF5DF4100EC046A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		278CCE0A1FF5DF4100EC046A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278CCE0D1FF5DF4100EC046A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				278CCE031FF5DF4100EC046A /* AppDelegate.swift */,
-				278CCE051FF5DF4100EC046A /* ViewController.swift */,
 				278CCE071FF5DF4100EC046A /* Main.storyboard */,
+				2757366720072F2500AA4AF7 /* FirstViewController.swift */,
 				278CCE0A1FF5DF4100EC046A /* Assets.xcassets */,
 				278CCE0C1FF5DF4100EC046A /* LaunchScreen.storyboard */,
 				278CCE0F1FF5DF4100EC046A /* Info.plist */,
+				275736632007297400AA4AF7 /* Balance.xib */,
+				275736652007297B00AA4AF7 /* Balance.swift */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				278CCE0E1FF5DF4100EC046A /* LaunchScreen.storyboard in Resources */,
 				278CCE0B1FF5DF4100EC046A /* Assets.xcassets in Resources */,
+				275736642007297400AA4AF7 /* Balance.xib in Resources */,
 				278CCE091FF5DF4100EC046A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278CCE061FF5DF4100EC046A /* ViewController.swift in Sources */,
+				2757366820072F2500AA4AF7 /* FirstViewController.swift in Sources */,
+				275736662007297B00AA4AF7 /* Balance.swift in Sources */,
 				278CCE041FF5DF4100EC046A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
